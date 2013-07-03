@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {%- if entry is defined -%}
+      {{ entry.title }} - {{ conf.sitename }}
+    {%- else -%}
+      {{ conf.sitename }} - {{ conf.slogan}}
+    {%- endif -%}
+{% endblock %}
+
+{% block head %}
+    {{- super() }}
+    {%- if entry is defined %}
+    <meta name="description" content="{{ entry.description | e }}" />
+    <meta name="keywords" content="{{ entry.tags | join(', ') }}" />
+    {%- endif -%}
+{% endblock %}
+
+{% block content %}
+<div class="content">
+    <div class="article">
+        <div class="title" style="margin-top: 30px;">
+            <h1>
+                {% if env.type == 'index' %}
+                <a href="{{ env.entrylist[0].permalink }}">{{ env.entrylist[0].title }}</a>
+                {% else %}
+                {{ env.entrylist[0].title }}
+                {% endif %}
+            </h1>
+            <div class="meta post_meta">
+                {{ env.entrylist[0].date.strftime("%Y") }}年{{ env.entrylist[0].date.strftime("%m") }}月{{ env.entrylist[0].date.strftime("%d") }}日 {{ env.entrylist[0].date.strftime("%H:%M") }}
+                {% if env.type == 'index' %}
+                <span class="separator">•</span>
+                <span>{{ env.entrylist[0].content|count }}字{# ，约需{{ (env.entrylist[0].content|count/200)|int() }}分钟 #}</span>
+                {% endif %}
+            </div>
+            <div class="latest_entry">
+                {{ env.entrylist[0].content }}
+            </div>
+        </div>
+    </div>
+    {% if env.type == 'index' %}
+    {% endif %}
+    {% for entry in env.entrylist[1:] %}
+        {% include 'entry.html' %}
+    {% endfor %}
+
+    {# {% if env.prev is not none %}
+        <a href="{{ env.path ~ env.prev ~ '/' }}" class="page floatright">
+        {{ env.prev.title }}
+        </a>
+    {% endif %}
+    {% if env.next is not none %}
+        <a href="{{ env.path ~ env.next ~ '/' }}" class="page floatleft">
+        {{ env.next.title }}
+        </a>
+    {%- endif  %} #}
+</div>
+
+{% if env.type == 'index' %}
+<h5>2013年以前的文章</h5>
+<div style="text-align:left;">
+    <a href="http://web.archive.org/web/20130701181709/http://herockpost.com/" target="_blank" class="old_archive">2004 - 2012年文章存档</a>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block footer %}
+© 2004 - 2013 Herock Xia all rights reserved.<br>Gmail: herock<span class="separator"> | </span>微信：herockpost
+{% endblock %}
+
+{# {% block footer %}
+    {{ super() }}
+    {% if conf.disqus_shortname and env.type == 'index' %}
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = '{{ conf.disqus_shortname }}'; // required: replace example with your forum shortname
+            if (window.location.hostname != 'localhost') {
+                 /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function () {
+                    var s = document.createElement('script'); s.async = true;
+                    s.type = 'text/javascript';
+                    s.src = '{{ env.protocol }}://' + disqus_shortname + '.disqus.com/count.js';
+                    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);}());
+            }
+        </script>
+        {% endif %}
+{% endblock %} #}
