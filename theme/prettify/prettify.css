@@ -1,0 +1,73 @@
+
+
+/* Pretty printing styles. Used with prettify.js. */
+
+/* SPAN elements with the classes below are added by prettyprint. */
+.pln { color: #000 }  /* plain text */
+
+@media screen {
+  .str { color: #875C26 }  /* string content */
+  .kwd { color: #878787; font-weight: bold }  /* a keyword */
+  .com { color: #bbbbbb }  /* a comment */
+  .typ { color: #324076; font-weight: bold}  /* a type name */
+  .lit { color: #008887 }  /* a literal value */
+  /* punctuation, lisp open bracket, lisp close bracket */
+  .pun, .opn, .clo { color: #660 }
+  .tag { color: #878787; font-weight: bold; }  /* a markup tag name */
+  .atn { color: #324076 }  /* a markup attribute name */
+  .atv { color: #875C26 }  /* a markup attribute value */
+  .dec, .var { color: #324076 }  /* a declaration; a variable name */
+  .fun { color: #870000; }  /* a function name */
+}
+
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+  .str { color: #060 }
+  .kwd { color: #006; font-weight: bold }
+  .com { color: #600; font-style: italic }
+  .typ { color: #404; font-weight: bold }
+  .lit { color: #044 }
+  .pun, .opn, .clo { color: #440 }
+  .tag { color: #006; font-weight: bold }
+  .atn { color: #404 }
+  .atv { color: #060 }
+}
+
+/* Put a border around prettyprinted code snippets. */
+pre.prettyprint {
+  padding: 0px 10px 0px 10px;
+  margin:0px 0px 10px 2px;
+  font-family: "Bitstream Vera Sans Mono","Andale Mono",Monaco,monospace;
+  font-size:12px;
+  line-height:140%;
+  display: block;
+  width: auto;
+  overflow: auto;
+/*  max-height: 600px;*/
+  white-space: pre;
+  word-wrap: normal;
+  border-left: 3px solid #eeeeee;
+}
+
+pre p{
+  margin:0px;
+  padding:0px;
+}
+
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { margin-top: 0; margin-bottom: 0 } /* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L5,
+li.L6,
+li.L7,
+li.L8 { list-style-type: none }
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 { background: #ffffff; }

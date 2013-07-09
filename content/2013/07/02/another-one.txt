@@ -1,6 +1,14 @@
 ---
 title: another one
 date: 02.07.2013, 02:00
-draft: True
+draft: False
 ---
+测试一下代码的效果
 
+
+<pre class="prettyprint lang-html">
+<html>
+    <head>
+    </head>
+</html>
+</pre>
