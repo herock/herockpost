@@ -1,0 +1,10 @@
+---
+title: 放弃用了 9 年的 Movable Type，换成 Acrylamid
+slug: acrylamid-blog
+date: 09.07.2013, 19:27
+filter: [markdown]
+---
+
+做为曾经的老牌 Blog 系统，Movable Type 早就被 WordPress 虐的体无完肤，之所以我还撑着用了这么多年，一个原因是懒得折腾，第二个我特别喜欢 MT 能生成静态页面，虽然 Keso 曾尖锐的指出，我的 Blog 流量从来都没达到过需要用静态页面来降低负载的程度，但还是觉得静态的更舒服，大概是有一点点“性能洁癖”吧。
+
+但

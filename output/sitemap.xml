@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://herockpost.com/articles/</loc>
-    <lastmod>2013-07-03</lastmod>
+    <lastmod>2013-07-09</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://herockpost.com/rss/</loc>
-    <lastmod>2013-07-03</lastmod>
+    <lastmod>2013-07-09</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://herockpost.com/index.xml</loc>
-    <lastmod>2013-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://herockpost.com/</loc>
-    <lastmod>2013-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://herockpost.com/atom/</loc>
-    <lastmod>2013-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://herockpost.com/2013/07/02/another-one/</loc>
-    <lastmod>2013-07-03</lastmod>
+    <loc>http://herockpost.com/2013/07/09/acrylamid-blog/</loc>
+    <lastmod>2013-07-09</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://herockpost.com/index.xml</loc>
+    <lastmod>2013-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://herockpost.com/</loc>
+    <lastmod>2013-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://herockpost.com/atom/</loc>
+    <lastmod>2013-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>http://herockpost.com/2013/07/02/reload/</loc>
-    <lastmod>2013-07-03</lastmod>
+    <lastmod>2013-07-09</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
   </url>
