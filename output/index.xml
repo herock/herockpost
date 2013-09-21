@@ -5,24 +5,33 @@
         <link>http://herockpost.com/</link>
         <description></description>
         <language>en</language>
-        <pubDate>Tue, 09 Jul 2013 11:27:00 GMT</pubDate>
+        <pubDate>Fri, 27 Sep 2013 03:56:00 GMT</pubDate>
         <docs>http://herockpost.com/index.xml</docs>
         <generator>acrylamid 0.7.7</generator>
         
             <item>
                 <title>新 Blog 的极简设计</title>
-                <link>http://herockpost.com/2013/07/09/new-blog-design/</link>
+                <link>http://herockpost.com/2013/09/27/new-blog-design/</link>
                 <description>&lt;p&gt;都在说信奉极简，真的做到可不容易。&lt;/p&gt;
-        &lt;p&gt;公司的产品不属于我，没法随心所欲，但自己的 Blog 却可以想怎么玩就怎么玩。&lt;/p&gt;
-        &lt;p&gt;这个 Blog 运行了 9 年，早就想重新设计一下了，但因为过去的文章时间跨度比较大，积累了不少“历史问题”，比如图片链接的地址、文章里随意内嵌的 html 代码之类，虽然花些时间也能处理，但想起来就觉得麻烦，于是一拖再拖。&lt;/p&gt;
-        &lt;p&gt;最近忽然想通，根本不该让过去的积累，成为现在的束缚。于是抛开所有的“历史问题”，很快的重新设计了这个 Blog，并立即上线了，现在感觉很舒服。&lt;/p&gt;
+        &lt;p&gt;这个 Blog 运行了 9 年，早就想重新设计一下了，但因为过去的文章时间跨度比较大，积累了不少「历史问题」，比如图片链接的地址、文章里随意内嵌的 html 代码之类，虽然花些时间也能处理，但想起来就觉得麻烦，于是一拖再拖。&lt;/p&gt;
+        &lt;p&gt;最近忽然想通，根本不该让过去的积累，成为现在的束缚。于是抛开所有的「历史问题」，快速的重新设计，并立即上线了，感觉很舒服。&lt;/p&gt;
         &lt;p&gt;这种轻松、兴奋的心情让我又想开始写些东西了，其实，过去写的不论多少好坏，都并不重要，重要的是：现在，和未来要写些什么。&lt;/p&gt;
         &lt;p&gt;今天想说说，在重新设计自己的 Blog 时，我是怎么思考的。&lt;/p&gt;
-        &lt;p&gt;我做的第一件事是，先把自己以往对 Blog 这个东西的所有认识全部归零，完全从头开始思考这个问题：我（自己）需要怎样的一个 Blog ？换句话说，就是我希望用这个东西（不论它是叫 Blog 或者其它任何名字），解决我的什么问题？&lt;/p&gt;
+        &lt;p&gt;我做的第一件事是，先把自己以往对 Blog 这个东西的所有认识全部归零，完全从头开始思考这个问题：我需要怎样的一个 Blog ？换句话说，就是我希望用这个东西（不论它是叫 Blog 或者其它任何名字），解决我的什么问题？&lt;/p&gt;
         &lt;p&gt;结论是：我需要一个工具，能把我写的文字、代码，或者图片，方便的发布到网上，让其他人可以看到。&lt;/p&gt;
-        &lt;p&gt;就这么简单，对我来说，这样就够了。&lt;/p&gt;</description>
-                <pubDate>Tue, 09 Jul 2013 11:27:00 GMT</pubDate>
-                <guid isPermaLink="false">tag:herockpost.com,2013-07-09:/2013/07/09/new-blog-design</guid>
+        &lt;p&gt;所谓极简，就是聚焦在核心需求，尽力把它满足好，其它的一切，则毫不犹豫的砍掉。&lt;/p&gt;
+        &lt;p&gt;确定了我的核心需求是「写和读」之后，设计立刻变成了简单的逻辑判断：如果没有某个元素，是不是就不能「写」和「读」了，是则保留，否则果断删除。&lt;/p&gt;
+        &lt;p&gt;用这个逻辑，我砍掉了大多数传统 Blog 系统中，看似必不可少的元素，比如侧边栏、分类、标签、搜索、评论、引用等等。&lt;/p&gt;
+        &lt;p&gt;在 Blog 产生的早期，人们几乎没有固定的在线活动场所，围绕着 Blog 文章发生的所有互动、分享等操作，Blog 系统都不得不想办法来亲自解决。&lt;/p&gt;
+        &lt;p&gt;可现在的情况已经变了，人们大多数在线交流，都依赖微博、微信这样的平台，Blog 系统已经不再需要去操心除内容的制造和展示之外的其它事情，所以有机会做的更简单。&lt;/p&gt;
+        &lt;p&gt;第二件重要的事，是决定用什么样的方式来写和发布？&lt;/p&gt;
+        &lt;p&gt;用了多年的 Movable Type 不思进取，几乎已经没有任何亮点，也找不到任何选择它的理由。&lt;/p&gt;
+        &lt;p&gt;WordPress 虽然是最主流的 Blog 系统，但越来越像是个专门的 CMS，对我来说，太臃肿了，而且我也不希望再为它在服务器上安装个 PHP 的运行环境。&lt;/p&gt;
+        &lt;p&gt;我希望在本地写作，并可以用静态文件的方式方便的发布到服务器上，我不想用那种需要登录到一个「管理后台」的在线写作并发表的方式。&lt;/p&gt;
+        &lt;p&gt;我研究了在 Geek 中比较流行 &lt;a href=&#34;http://octopress.org&#34;&gt;Octopress&lt;/a&gt;，觉得总体不错，但因为是用 Ruby on Rails 写的，感觉不爽，后来找到用 Python 写的 &lt;a href=&#34;http://posativ.org/acrylamid/&#34;&gt;Acrylamid&lt;/a&gt;，似乎更合我胃口。&lt;/p&gt;
+        &lt;p&gt;现在看到的我的 Blog，就是用 Acrylamid 做的，再见了 MT。&lt;/p&gt;</description>
+                <pubDate>Fri, 27 Sep 2013 03:56:00 GMT</pubDate>
+                <guid isPermaLink="false">tag:herockpost.com,2013-09-27:/2013/09/27/new-blog-design</guid>
             </item>
         
             <item>
