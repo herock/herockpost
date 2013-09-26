@@ -131,3 +131,9 @@ blockquote {
     font-size: $normal-size - 2;
     // color:#bbbbbb;background-color:#efefef;
 }
+
+pre {
+    border-left: 4px solid #eeeeee;
+    padding-left: 10px;
+    margin-left: 0px;
+}

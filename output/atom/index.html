@@ -11,13 +11,49 @@
     <link rel="self" type="application/atom+xml" href="http://herockpost.com/atom/" />
     <icon>http://herockpost.com/favicon.ico</icon>
     <logo>http://herockpost.com/feed-logo.png</logo>
-    <updated>2013-09-27T03:56:00Z</updated>
+    <updated>2013-09-25T13:26:00Z</updated>
     <generator uri="https://github.com/posativ/acrylamid/" version="0.7.7">acrylamid</generator>
         <entry>
+                <title>iOS 7 里的 Multipath TCP 是什么</title>
+                <link rel="alternate" type="text/html" href="http://herockpost.com/2013/09/25/multipath-tcp/" />
+                <id>tag:herockpost.com,2013-09-25:/2013/09/25/multipath-tcp</id>
+                <updated>2013-09-25T13:26:00Z</updated>
+                
+                <author>
+                    <name>herock</name>
+                    <uri>http://herockpost.com/</uri>
+                    <email>herock@gmail.com</email>
+                </author>
+                <content type="html">&lt;p&gt;看到 TualatriX 在 Blog 上发表的&lt;a href=&#34;http://imtx.me/archives/1852.html&#34;&gt;一篇文章&lt;/a&gt;中提到，iOS 7 里已经应用了 Multipath TCP 这个协议，大意是说 Multipath TCP 顾名思义，是会同时使用设备可用的多条连接（比如 wifi 和 3G），目的是提供给用户最好的网络连接性能和无缝的切换体验。&lt;/p&gt;
+        &lt;p&gt;读完吓了一跳，因为我这个月 3G 流量超了一倍还多，所以对使用 3G 流量，尤其是这种不吭一声就直接开用的做法特别敏感，后来仔细研究，才发现 iOS 7 里应该确实使用了 Multipath TCP，但目前还只限于 Siri，也就是其它的网络连接操作，都还没有用到这种特性，还好还好。&lt;/p&gt;
+        &lt;p&gt;如果有兴趣想自己研究一下，可以参考这篇文章下回复里提到的方法，这个方法也可以用于调试 iOS 设备的网络连接情况，挺实用的。&lt;/p&gt;
+        &lt;p&gt;具体做法如下：&lt;/p&gt;
+        &lt;ol&gt;
+        &lt;li&gt;
+        &lt;p&gt;安装 Xcode，并启动一次，按照提示安装相应的工具&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;p&gt;用 USB 连接 iPhone，在 iTunes 里找到设备的 UDID（点击序列号就可以看到）&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;p&gt;打开 Mac 的 Terminal，运行：
+        &lt;pre&gt;rvictl -s [udid]&lt;/pre&gt;&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;p&gt;这样就得到了一个名为 rvi0 的设备，它就是你的 iPhone 或者 iPad，想关掉它，就在 Terminal 里运行：
+        &lt;pre&gt;rvictl -x [udid]&lt;/pre&gt;&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;p&gt;接下来的网络跟踪，可以参考苹果的&lt;a href=&#34;https://developer.apple.com/library/mac/qa/qa1176/_index.html&#34;&gt;这篇文档&lt;/a&gt;&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;/ol&gt;</content>
+            </entry>
+    
+        <entry>
                 <title>新 Blog 的极简设计</title>
-                <link rel="alternate" type="text/html" href="http://herockpost.com/2013/09/27/new-blog-design/" />
-                <id>tag:herockpost.com,2013-09-27:/2013/09/27/new-blog-design</id>
-                <updated>2013-09-27T03:56:00Z</updated>
+                <link rel="alternate" type="text/html" href="http://herockpost.com/2013/09/21/new-blog-design/" />
+                <id>tag:herockpost.com,2013-09-21:/2013/09/21/new-blog-design</id>
+                <updated>2013-09-21T03:56:00Z</updated>
                 
                 <author>
                     <name>herock</name>

@@ -1,7 +1,7 @@
 ---
 title: 新 Blog 的极简设计
 slug: new-blog-design
-date: 27.09.2013, 11:56
+date: 21.09.2013, 11:56
 filter: [markdown]
 ---
 
