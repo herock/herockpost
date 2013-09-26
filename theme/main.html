@@ -40,12 +40,11 @@
         </div>
     </div>
     {% if env.type == 'index' %}
+    <h5>更多文章</h5>
     {% endif %}
-            <h5>更多文章</h5>
-            {% for entry in env.entrylist[1:] %}
-                {% include 'entry.html' %}
-            {% endfor %}
-
+    {% for entry in env.entrylist[1:] %}
+        {% include 'entry.html' %}
+    {% endfor %}
     {# {% if env.prev is not none %}
         <a href="{{ env.path ~ env.prev ~ '/' }}" class="page floatright">
         {{ env.prev.title }}
