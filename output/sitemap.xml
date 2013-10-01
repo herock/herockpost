@@ -7,19 +7,20 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://herockpost.com/articles/</loc>
-    <lastmod>2013-10-01</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>http://herockpost.com/rss/</loc>
     <lastmod>2013-10-01</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://herockpost.com/index.xml</loc>
+    <loc>http://herockpost.com/articles/</loc>
     <lastmod>2013-10-01</lastmod>
     <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://herockpost.com/2013/10/01/google-web-designer/</loc>
+    <lastmod>2013-10-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>http://herockpost.com/</loc>
@@ -44,9 +45,8 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://herockpost.com/2013/10/01/web-designer/</loc>
+    <loc>http://herockpost.com/index.xml</loc>
     <lastmod>2013-10-01</lastmod>
-    <changefreq>never</changefreq>
-    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>

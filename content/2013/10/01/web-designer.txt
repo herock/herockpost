@@ -1,5 +1,8 @@
 ---
-title: web designer
+title: Google Web Designer
 date: 01.10.2013, 08:32
+slug: google-web-designer
 ---
+
+
 
