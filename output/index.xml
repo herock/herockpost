@@ -5,9 +5,41 @@
         <link>http://herockpost.com/</link>
         <description></description>
         <language>en</language>
-        <pubDate>Wed, 25 Sep 2013 13:26:00 GMT</pubDate>
+        <pubDate>Sat, 02 Nov 2013 14:07:00 GMT</pubDate>
         <docs>http://herockpost.com/index.xml</docs>
         <generator>acrylamid 0.7.7</generator>
+        
+            <item>
+                <title>全新安装了 Mavericks</title>
+                <link>http://herockpost.com/2013/11/02/mavericks/</link>
+                <description>&lt;p&gt;用了几天从 Developer Preview 版本升级到正式版的 Mavericks，菊花频现，觉得不太对劲儿，加上那个 Mac OS 上著名的「&lt;a href=&#34;https://www.google.com/search?client=safari&amp;amp;rls=en&amp;amp;q=mac+os+%E5%85%B6%E5%AE%83&amp;amp;ie=UTF-8&amp;amp;oe=UTF-8#q=mac+os+%E5%82%A8%E5%AD%98+%E4%B8%8B%E7%9A%84+%E3%80%8C%E5%85%B6%E4%BB%96%E3%80%8D&amp;amp;rls=en&#34;&gt;其他&lt;/a&gt;」，也在不可遏制的疯长，我的 128G 小硬盘明显顶不住了，于是决心抹盘全新安装 Mavericks。&lt;/p&gt;
+        &lt;p&gt;几年前，重装一次系统还是件压力巨大的事，基本相当于搬家。而现在我的所有重要信息都在云上，需要为重装系统单独备份的文件几乎就没有。唯一需要处理的就是已经安装的应用，这些不好备份，但它们正好是促使我重装系统的核心原因 - 打算进行一次彻底的清扫，只装最需要用的。&lt;/p&gt;
+        &lt;p&gt;安装很快，包括制作安装 U 盘的时间，也就一个小时左右。&lt;/p&gt;
+        &lt;p&gt;面对一个干干净净的 Mavericks，心情很好，于是快速按照习惯，进行了配置：&lt;/p&gt;
+        &lt;ul&gt;
+        &lt;li&gt;去掉桌面背景，改成纯色，我用的是 &#34;Solid Aqua Dark Blue&#34;。&lt;/li&gt;
+        &lt;li&gt;删掉 Dock 上所有驻留图标（除了 Finder 删不掉），并把Dock设置为放到屏幕左侧且自动隐藏。因为所有程序的启动都是通过 Alfred，Dock 对我来说，完全多余。&lt;/li&gt;
+        &lt;li&gt;把 Find 侧边栏用不着的项目都隐藏掉，桌面上的硬盘、外接硬盘的图标，也关掉&lt;/li&gt;
+        &lt;li&gt;启用单指点击触控板，和三指拖动功能。&lt;/li&gt;
+        &lt;li&gt;设置触发角&lt;/li&gt;
+        &lt;li&gt;去掉 Spotlight 图标（同样由于 Alfred 的原因），但不要关闭 Spotlight 所使用的 MDS 服务，因为 Alfred 和其他一些应用也在使用这个服务，如果关掉，Alfred 就无法跟踪新安装的应用和新增的文件了，还有查看「关于本机」的信息时，也会有问题。&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;下面开始安装应用，我只装了这些，正好十个，但其实已经够了：&lt;/p&gt;
+        &lt;ol&gt;
+        &lt;li&gt;Alfred：必装，启动应用、查找文件，所有一切的入口。&lt;/li&gt;
+        &lt;li&gt;iWork：写文档、演示、表格，虽然还不稳定，比如共享功能就烂的一塌糊涂，据说&lt;a href=&#34;http://weibo.com/1188674754/AgA5E79If?mod=weibotime&#34;&gt;还有不少问题&lt;/a&gt;，但我还是被这种全新的极简风瞬间打动，而且诚实的说，比以前的版本更好理解，更容易上手。&lt;/li&gt;
+        &lt;li&gt;Evernote：任何正式文档之外的需要写的东西，我都记在这里，它的 iPhone版现在也好的一塌糊涂，极赞，唯一的问题是免费版太够用，导致找不到付费的理由。&lt;/li&gt;
+        &lt;li&gt;Dropbox：也已经快成为系统的一部分了，必用，用来随时备份和同步重要的文档。当年苹果要收 Dropbox 的时候，他们能乖乖从了多好。&lt;/li&gt;
+        &lt;li&gt;Sketch：迄今为止我用过的最棒的界面设计软件，尤其适合做 App 界面设计，当然做网站设计也没有问题。上手成本极低，所有功能都是按照直觉设计的，基本无需学习。要说缺点的话，就是不支持模板或者组件调用之类在稍大的项目里，可以提高效率的功能。还有，就是不能用来设计动态的交互效果，不过这也是应有的克制，其实我很喜欢这样。&lt;/li&gt;
+        &lt;li&gt;iTerm：用来替代原生的 Terminal，我安装了 Solarize Theme，还安装了 oh my zsh，它的 theme 我用 Soliah&lt;/li&gt;
+        &lt;li&gt;Xcode&lt;/li&gt;
+        &lt;li&gt;Sublime Text 2：最好用的代码编辑器，写一切代码我都用它，好用的无法描述，必须自己去尝试。&lt;/li&gt;
+        &lt;li&gt;The Unarchiver：不常用，偶尔会需要解压 rar 格式的压缩包，不得不装了一个。&lt;/li&gt;
+        &lt;li&gt;1Password：记密码，iCloud 的密码管理暂时还无法完全替代它，但预感它会慢慢从我的系统中退出去。&lt;/li&gt;
+        &lt;/ol&gt;</description>
+                <pubDate>Sat, 02 Nov 2013 14:07:00 GMT</pubDate>
+                <guid isPermaLink="false">tag:herockpost.com,2013-11-02:/2013/11/02/mavericks</guid>
+            </item>
         
             <item>
                 <title>iOS 7 里的 Multipath TCP 是什么</title>

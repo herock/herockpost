@@ -7,14 +7,20 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://herockpost.com/rss/</loc>
+    <lastmod>2013-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>http://herockpost.com/articles/</loc>
     <lastmod>2013-11-02</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://herockpost.com/rss/</loc>
+    <loc>http://herockpost.com/2013/11/02/mavericks/</loc>
     <lastmod>2013-11-02</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>never</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>http://herockpost.com/index.xml</loc>
