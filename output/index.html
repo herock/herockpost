@@ -22,45 +22,46 @@
         <div class="title" style="margin-top: 30px;">
             <h1>
                 
-                <a href="/2013/10/01/google-web-designer/">Google Web Designer</a>
+                <a href="/2013/09/25/multipath-tcp/">iOS 7 里的 Multipath TCP 是什么</a>
                 
             </h1>
             <div class="meta post_meta">
-                2013年10月01日 08:32
+                2013年09月25日 21:26
                 
                 <span class="separator">•</span>
-                <span>0字</span>
+                <span>864字</span>
                 
             </div>
             <div class="latest_entry">
-                
+                <p>看到 TualatriX 在 Blog 上发表的<a href="http://imtx.me/archives/1852.html">一篇文章</a>中提到，iOS 7 里已经应用了 Multipath TCP 这个协议，大意是说 Multipath TCP 顾名思义，是会同时使用设备可用的多条连接（比如 wifi 和 3G），目的是提供给用户最好的网络连接性能和无缝的切换体验。</p>
+<p>读完吓了一跳，因为我这个月 3G 流量超了一倍还多，所以对使用 3G 流量，尤其是这种不吭一声就直接开用的做法特别敏感，后来仔细研究，才发现 iOS 7 里应该确实使用了 Multipath TCP，但目前还只限于 Sir&shy;i，也就是其它的网络连接操作，都还没有用到这种特性，还好还好。</p>
+<p>如果有兴趣想自己研究一下，可以参考这篇文章下回复里提到的方法，这个方法也可以用于调试 iOS 设备的网络连接情况，挺实用的。</p>
+<p>具体做法如下：</p>
+<ol>
+<li>
+<p>安装 Xcode，并启动一次，按照提示安装相应的工具</p>
+</li>
+<li>
+<p>用 USB 连接 iPhone，在 iTunes 里找到设备的 UDID（点击序列号就可以看到）</p>
+</li>
+<li>
+<p>打开 Mac 的 Ter&shy;mi&shy;nal，运行：
+<pre>rvictl -s [udid]</pre></p>
+</li>
+<li>
+<p>这样就得到了一个名为 rvi0 的设备，它就是你的 iPhone 或者 iPad，想关掉它，就在 Terminal 里运行：
+<pre>rvictl -x [udid]</pre></p>
+</li>
+<li>
+<p>接下来的网络跟踪，可以参考苹果的<a href="https://developer.apple.com/library/mac/qa/qa1176/_index.html">这篇文档</a></p>
+</li>
+</ol>
             </div>
         </div>
     </div>
     
     <h5>更多文章</h5>
     
-    
-        <div class="article">
-    <div class="title">
-        
-        <h1>
-            
-                <a href="/2013/09/25/multipath-tcp/">iOS 7 里的 Multipath TCP 是什么</a>
-            
-        </h1>
-        <div class="meta">
-            2013年09月25日 21:26
-            
-            <span class="separator">•</span>
-            <span>864字</span>
-            
-        </div>
-    </div>
-    
-    
-    
-</div>
     
         <div class="article">
     <div class="title">
