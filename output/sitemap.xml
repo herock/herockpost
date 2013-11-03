@@ -7,12 +7,17 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://herockpost.com/articles/</loc>
+    <lastmod>2013-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>http://herockpost.com/rss/</loc>
     <lastmod>2013-11-03</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://herockpost.com/articles/</loc>
+    <loc>http://herockpost.com/index.xml</loc>
     <lastmod>2013-11-03</lastmod>
     <changefreq>weekly</changefreq>
   </url>
@@ -21,11 +26,6 @@
     <lastmod>2013-11-03</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://herockpost.com/index.xml</loc>
-    <lastmod>2013-11-03</lastmod>
-    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://herockpost.com/</loc>
@@ -50,7 +50,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://herockpost.com/2013/11/03/gem-compass/</loc>
+    <loc>http://herockpost.com/2013/11/03/compass/</loc>
     <lastmod>2013-11-03</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>

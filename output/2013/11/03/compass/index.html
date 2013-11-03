@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Herock Post – Artikelübersicht</title>
+  <title>安装 Compass - Herock Post</title>
   <link media="all" href="/stylesheets/screen.css" rel="stylesheet" />
   <link rel="alternate" type="application/rss+xml" title="Herock Post RSS 2.0" href="/rss">
   <link rel="alternate" type="application/rss+xml" title="Herock Post RSS 2.0" href="/index.xml">
@@ -10,6 +10,8 @@
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+    <meta name="description" content="昨天写完 [blog][3]，看到 `ul` 和 `ol` 的间距很糟糕，需要调整一下样式，才发现还..." />
+    <meta name="keywords" content="" />
 </head>
 <body>
   <div class="container">
@@ -17,61 +19,41 @@
       <a href="/"><img src="/images/logo.png"></a>
       <span id="slogan">Blog让独处更有趣</span>
     </div>
-<article>
-  <table id="arc">
-  
-  
-    <tr>
-        
-          
-          <th>2013 November</th>
-        
-        <td></td>
-    </tr>
+<div class="content">
+    <div class="article">
+        <div class="title" style="margin-top: 30px;">
+            <h1>
+                
+                安装 Compass
+                
+            </h1>
+            <div class="meta post_meta">
+                2013年11月03日 11:23
+                
+            </div>
+            <div class="latest_entry">
+                <p>昨天写完 <a href="http://herockpost.com/2013/11/02/mavericks/">blog</a>，看到 <code>ul</code> 和 <code>ol</code> 的间距很糟糕，需要调整一下样式，才发现还需要再把 <a href="http://compass-style.org/install/">Compass</a> 装上，正常的流程是先安装 gem，再用 gem 来安装 compass 即可：</p>
+<p><code>$ gem install compass</code></p>
+<p>以前装的时候从来没遇到过问题，可今天却始终不成功，开始以为是权限问题，加上 <code>sudo</code> 之后仍然不行，总是按下回车之后就没有反应了，就以为是被墙了，挂上 VPN 却依然不行。</p>
+<p>赶快 Google 一把，发现两个问题：</p>
+<ol>
+<li>gem 确实被墙了，可以<a href="http://www.iteye.com/news/23813-rubygems-taobao">使用淘宝的镜像</a></li>
+<li>使用 <code>$ gem install compass -V</code>，可以输入完整的日志，就不至于长时间没有反应的时候，完全不知道发生了什么</li>
+</ol>
+<p>如果仅仅是被墙的话，应该用 VPN 是能安装的，但从日志看，被 302 重定向了好多次，之后就失败了。无奈只好添加了淘宝镜像，终于顺利安装成功。</p>
+            </div>
+        </div>
+    </div>
     
-      <tr><th>3</th>
-          <td><a href="/2013/11/03/compass/">安装 Compass</a></td>
-      </tr>
     
-      <tr><th>2</th>
-          <td><a href="/2013/11/02/mavericks/">全新安装了 Mavericks</a></td>
-      </tr>
     
-  
-    <tr>
-        
-          <th>September</th>
-        
-        <td></td>
-    </tr>
-    
-      <tr><th>25</th>
-          <td><a href="/2013/09/25/multipath-tcp/">iOS 7 里的 Multipath TCP 是什么</a></td>
-      </tr>
-    
-      <tr><th>21</th>
-          <td><a href="/2013/09/21/new-blog-design/">新 Blog 的极简设计</a></td>
-      </tr>
-    
-  
-    <tr>
-        
-          <th>July</th>
-        
-        <td></td>
-    </tr>
-    
-      <tr><th>2</th>
-          <td><a href="/2013/07/02/reload/">重启Blog</a></td>
-      </tr>
-    
-  
-  </table>
-</article>
+</div>
+
+
 <div class="footer">
       
-      
-      
+© 2004 - 2013 Herock Xia all rights reserved.<br>Gmail: herock<span class="separator"> | </span>微信：herockpost
+
     </div>
   </div>
 
