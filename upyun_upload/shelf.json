@@ -1,0 +1,18 @@
+[
+  {
+    "name": "book1",
+    "title": "设计注册登录页面",
+    "info": "2013-10-02\n\n不刻意求变，信息完整",
+    "date": "2013-09-03 22:50:36",
+    "cover": "http://lqd-mag-image.b0.upaiyun.com/img/cover131001.png",
+    "url": "http://lqd-mag-static.b0.upaiyun.com/test.hpub"
+  },
+  {
+    "name": "book2",
+    "title": "写好给用户的邮件",
+    "info": "2013-10-01\n\n要点清晰，文字简练",
+    "date": "2013-09-04 22:50:36",
+    "cover": "http://lqd-mag-image.b0.upaiyun.com/img/cover131002.png?1",
+    "url": "http://lqd-mag-static.b0.upaiyun.com/test.hpub"
+  }
+]
