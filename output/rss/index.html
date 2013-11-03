@@ -5,9 +5,25 @@
         <link>http://herockpost.com/</link>
         <description></description>
         <language>en</language>
-        <pubDate>Sat, 02 Nov 2013 14:07:00 GMT</pubDate>
+        <pubDate>Sun, 03 Nov 2013 03:23:00 GMT</pubDate>
         <docs>http://herockpost.com/rss/</docs>
         <generator>acrylamid 0.7.7</generator>
+        
+            <item>
+                <title>用 Gem 安装 Compass</title>
+                <link>http://herockpost.com/2013/11/03/gem-compass/</link>
+                <description>&lt;p&gt;昨天写完 blog，发现 &lt;code&gt;ul&lt;/code&gt; 和 &lt;code&gt;ol&lt;/code&gt; 的间距很糟糕，需要调整一下样式，才发现还需要再把 &lt;a href=&#34;http://compass-style.org/install/&#34;&gt;Compass&lt;/a&gt; 装上，正常的流程是先安装 gem，再用 gem 来安装 compass 即可：&lt;/p&gt;
+        &lt;p&gt;&lt;code&gt;$ gem install compass&lt;/code&gt;&lt;/p&gt;
+        &lt;p&gt;以前装的时候从来没遇到过问题，可今天却始终不成功，开始以为是权限问题，加上 &lt;code&gt;sudo&lt;/code&gt; 之后仍然不行，总是按下回车之后就没有反应了，就以为是被墙了，挂上 VPN 却依然不行。&lt;/p&gt;
+        &lt;p&gt;赶快 Google 一把，发现两个问题：&lt;/p&gt;
+        &lt;ol&gt;
+        &lt;li&gt;gem 确实被墙了，可以&lt;a href=&#34;http://www.iteye.com/news/23813-rubygems-taobao&#34;&gt;使用淘宝的镜像&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;使用 &lt;code&gt;$ gem install compass&lt;/code&gt;，可以输入完整的日志，就不至于长时间没有反应的时候，完全不知道发生了什么&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;如果仅仅是被墙的话，应该用 VPN 是能安装的，但从日志看，被 302 重定向了好多次，之后就失败了。无奈只好添加了淘宝镜像，终于顺利安装成功。&lt;/p&gt;</description>
+                <pubDate>Sun, 03 Nov 2013 03:23:00 GMT</pubDate>
+                <guid isPermaLink="false">tag:herockpost.com,2013-11-03:/2013/11/03/gem-compass</guid>
+            </item>
         
             <item>
                 <title>全新安装了 Mavericks</title>
@@ -24,19 +40,29 @@
         &lt;li&gt;设置触发角&lt;/li&gt;
         &lt;li&gt;去掉 Spotlight 图标（同样由于 Alfred 的原因），但不要关闭 Spotlight 所使用的 MDS 服务，因为 Alfred 和其他一些应用也在使用这个服务，如果关掉，Alfred 就无法跟踪新安装的应用和新增的文件了，还有查看「关于本机」的信息时，也会有问题。&lt;/li&gt;
         &lt;/ul&gt;
-        &lt;p&gt;下面开始安装应用，我只装了这些，正好十个，但其实已经够了：&lt;/p&gt;
+        &lt;p&gt;下面开始安装应用，我只装了这些，正好十个，但其实已经够了  &lt;/p&gt;
         &lt;ol&gt;
-        &lt;li&gt;Alfred：必装，启动应用、查找文件，所有一切的入口。&lt;/li&gt;
-        &lt;li&gt;iWork：写文档、演示、表格，虽然还不稳定，比如共享功能就烂的一塌糊涂，据说&lt;a href=&#34;http://weibo.com/1188674754/AgA5E79If?mod=weibotime&#34;&gt;还有不少问题&lt;/a&gt;，但我还是被这种全新的极简风瞬间打动，而且诚实的说，比以前的版本更好理解，更容易上手。&lt;/li&gt;
-        &lt;li&gt;Evernote：任何正式文档之外的需要写的东西，我都记在这里，它的 iPhone版现在也好的一塌糊涂，极赞，唯一的问题是免费版太够用，导致找不到付费的理由。&lt;/li&gt;
-        &lt;li&gt;Dropbox：也已经快成为系统的一部分了，必用，用来随时备份和同步重要的文档。当年苹果要收 Dropbox 的时候，他们能乖乖从了多好。&lt;/li&gt;
-        &lt;li&gt;Sketch：迄今为止我用过的最棒的界面设计软件，尤其适合做 App 界面设计，当然做网站设计也没有问题。上手成本极低，所有功能都是按照直觉设计的，基本无需学习。要说缺点的话，就是不支持模板或者组件调用之类在稍大的项目里，可以提高效率的功能。还有，就是不能用来设计动态的交互效果，不过这也是应有的克制，其实我很喜欢这样。&lt;/li&gt;
-        &lt;li&gt;iTerm：用来替代原生的 Terminal，我安装了 Solarize Theme，还安装了 oh my zsh，它的 theme 我用 Soliah&lt;/li&gt;
-        &lt;li&gt;Xcode&lt;/li&gt;
-        &lt;li&gt;Sublime Text 2：最好用的代码编辑器，写一切代码我都用它，好用的无法描述，必须自己去尝试。&lt;/li&gt;
-        &lt;li&gt;The Unarchiver：不常用，偶尔会需要解压 rar 格式的压缩包，不得不装了一个。&lt;/li&gt;
-        &lt;li&gt;1Password：记密码，iCloud 的密码管理暂时还无法完全替代它，但预感它会慢慢从我的系统中退出去。&lt;/li&gt;
-        &lt;/ol&gt;</description>
+        &lt;li&gt;&lt;strong&gt;Alfred&lt;/strong&gt;&lt;br /&gt;
+        必装，启动应用、查找文件，所有一切的入口。&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;iWork&lt;/strong&gt;&lt;br /&gt;
+        写文档、演示、表格，虽然还不稳定，比如共享功能就烂的一塌糊涂，据说&lt;a href=&#34;http://weibo.com/1188674754/AgA5E79If?mod=weibotime&#34;&gt;还有不少问题&lt;/a&gt;，但我还是被这种全新的极简风瞬间打动，而且诚实的说，比以前的版本更好理解，更容易上手。&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Evernote&lt;/strong&gt;&lt;br /&gt;
+        任何正式文档之外的需要写的东西，我都记在这里，它的 iPhone版现在也好的一塌糊涂，极赞，唯一的问题是免费版太够用，导致找不到付费的理由。&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;  也已经快成为系统的一部分了，必用，用来随时备份和同步重要的文档。当年苹果要收 Dropbox 的时候，他们能乖乖从了多好。&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Sketch&lt;/strong&gt;&lt;br /&gt;
+        迄今为止我用过的最棒的界面设计软件，尤其适合做 App 界面设计，当然做网站设计也没有问题。上手成本极低，所有功能都是按照直觉设计的，基本无需学习。要说缺点的话，就是不支持模板或者组件调用之类在稍大的项目里，可以提高效率的功能。还有，就是不能用来设计动态的交互效果，不过这也是应有的克制，其实我很喜欢这样。&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;iTerm&lt;/strong&gt;&lt;br /&gt;
+        用来替代原生的 Terminal，我安装了 Solarize Theme，还安装了 oh my zsh，它的 theme 我用 Soliah&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Xcode&lt;/strong&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Sublime Text 2&lt;/strong&gt;&lt;br /&gt;
+        最好用的代码编辑器，写一切代码我都用它，好用的无法描述，必须自己去尝试。&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;The Unarchiver&lt;/strong&gt;&lt;br /&gt;
+        不常用，偶尔会需要解压 rar 格式的压缩包，不得不装了一个。&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;1Password&lt;/strong&gt;
+        记密码，iCloud 的密码管理暂时还无法完全替代它，但预感它会慢慢从我的系统中退出去。&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;全部装完后，才用了不到 30G，真爽。&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;http://herockpost.b0.upaiyun.com/img/2013-11-03-12.27.28-PM.png&#34; width=&#34;590px&#34;&gt;&lt;/p&gt;</description>
                 <pubDate>Sat, 02 Nov 2013 14:07:00 GMT</pubDate>
                 <guid isPermaLink="false">tag:herockpost.com,2013-11-02:/2013/11/02/mavericks</guid>
             </item>

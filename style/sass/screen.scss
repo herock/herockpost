@@ -37,7 +37,6 @@ a {
 body {
     font-size: $normal-size;
     font-family: 'Helvetica Neue',"Hiragino Sans GB","Microsoft YaHei",Helvetica,Arial,sans-serif, STHeiti, Verdana;
-    text-align: justify;
 }
 
 .title {
@@ -136,4 +135,16 @@ pre {
     border-left: 4px solid #eeeeee;
     padding-left: 10px;
     margin-left: 0px;
+}
+
+ul,ol {
+    margin-left: 5px;
+    line-height: 165%;
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+ul {
+    list-style-type: square;
 }
