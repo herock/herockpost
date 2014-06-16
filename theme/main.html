@@ -19,7 +19,7 @@
 {% block content %}
 <div class="content">
     <div class="article">
-        <div class="title" style="margin-top: 30px;">
+        <div class="title">
             <h1>
                 {% if env.type == 'index' %}
                 <a href="{{ env.entrylist[0].permalink }}">{{ env.entrylist[0].title }}</a>
@@ -59,8 +59,13 @@
 
 {% if env.type == 'index' %}
 <h5>2013年以前的文章</h5>
-<div style="text-align:left;">
+<div class="section">
     <a href="http://web.archive.org/web/20130701181709/http://herockpost.com/" target="_blank" class="old_archive">2004 - 2012年文章存档</a>
+</div>
+
+<h5>我在做什么</h5>
+<div class="section">
+    <a href="http://www.lengqidong.com/"><img src="http://herockpost.b0.upaiyun.com/img/lengqidong_logo@2x.png" alt="冷启动" height="80px" width="230px"></a>
 </div>
 {% endif %}
 {% endblock %}

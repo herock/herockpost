@@ -1,0 +1,166 @@
+// This import applies a global reset to any page that imports this stylesheet.
+@import "blueprint/reset";
+// To configure blueprint, edit the partials/_base.sass file.
+@import "partials/base_mobile";
+
+// Import all the default blueprint modules so that we can access their mixins.
+@import "blueprint";
+// Import the non-default scaffolding module.
+// @import "blueprint/scaffolding";
+// Generate the blueprint framework according to your configuration:
+// @include blueprint;
+// @include blueprint-scaffolding;
+
+.container {
+    @include container;
+}
+
+a {
+    @include hover-link;
+}
+
+#header {
+    margin-top:0.5em;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 0.5em;
+    img {
+        // height: 40px;
+        height: 40px;
+        width: 165px;
+    }
+}
+
+#slogan {
+    font-size: $normal-size * 0.8;
+    float: right;
+    margin-top: 1.5em;
+    color: $light-grey;
+}
+
+body {
+    font-size: $normal-size;
+    font-family: 'Helvetica';
+}
+
+.title {
+    // border-bottom: 1px solid #eeeeee;
+    // padding: 5px 0 5px 0;
+    margin-top: 1em;
+}
+
+.content {
+    margin-top: 0.5em;
+    }
+
+.article {
+    margin: 0em 0;
+    p {
+        margin-bottom: 1em;
+        line-height: 150%;
+    }
+}
+
+h1 {
+    font-size: $normal-size * 1.2;
+    color: #888888;
+    // margin-right: 20px;
+    // letter-spacing: 2px;
+    }
+
+.post_h1 {
+    font-size: $normal-size * 1.2;
+    margin: 1px 0 10px 0;
+    border: 0;
+    font-family: 'Helvetica';
+    text-align: left;
+    background: red;
+}
+
+.meta {
+    color:#BFBFBF;
+    font-size: $normal-size * 0.9;
+}
+
+.post_meta {
+    // margin: 15px 0 10px 0;
+    margin: 0.5em 0;
+}
+
+.right {
+    float: right;
+}
+
+.separator {
+    color: #cccccc;
+    margin:0 3px;
+}
+
+h5 {
+    margin-top: 1em;
+    border-bottom: 1px solid #eeeeee;
+    color: #ccc;
+    font-size: $normal-size;
+    // font-weight: normal;
+    // background: red;
+}
+
+.section {
+    padding: 1em 0;
+}
+
+a.old_archive {
+    // color:#bbbbbb;
+    // background-color:#efefef;
+        background-color: #ddd;
+        color: #333333;
+    font-size: $normal-size;
+    padding: 0.2em 0.5em;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+// a.old_archive:hover {
+//     background-color: #ddd;
+//     color: #333333;
+// }
+
+blockquote {
+    background-color: #f6f6f6;
+    // padding: 20px 10px 15px 30px;
+    padding: 0.5em 0.5em 0.5em 1em;
+    margin: 20px 0;
+    font-style: normal;
+    border-left: 2px solid #cccccc;
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+    margin-top:1em;
+    padding: 1em 0;
+    text-align: center;
+    color: #ccc;
+    font-size: $normal-size * 0.9;
+    // color:#bbbbbb;background-color:#efefef;
+}
+
+pre {
+    border-left: 4px solid #eeeeee;
+    padding-left: 0.5em;
+    margin-left: 0px;
+}
+
+ul,ol {
+    margin-left: 1.5em;
+    line-height: 150%;
+    li {
+        margin-bottom: 0.2em;
+    }
+}
+
+ul {
+    list-style-type: square;
+}
+
+img {
+    max-width: 100%;
+}

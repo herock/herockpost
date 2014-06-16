@@ -4,7 +4,9 @@
   {% block head -%}
   <meta charset="utf-8" />
   <title>{% block title %}{% endblock %}</title>
-  <link media="all" href="{{ env.path + '/stylesheets/screen.css' }}" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 320px) and (max-device-width: 1080px)" href="{{ env.path + '/stylesheets/mobile.css' }}" />
+  <link media="screen and (min-device-width: 1080px)" href="{{ env.path + '/stylesheets/screen.css' }}" rel="stylesheet" />
   <link rel="alternate" type="application/rss+xml" title="Herock Post RSS 2.0" href="/rss">
   <link rel="alternate" type="application/rss+xml" title="Herock Post RSS 2.0" href="/index.xml">
   <link rel="alternate" type="application/atom+xml" href="/atom" title="Herock Post Atom Feed"/>
