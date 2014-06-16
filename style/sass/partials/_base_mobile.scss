@@ -15,9 +15,13 @@ $light-grey: #bfbfbf;
 // $dark-blue: #003063;
 $link-color: #1F7E9A;
 $normal: #333333;
+$grey: #666666;
 
 // Font size
 $normal-size: 1em;
+
+$font: 'Helvetica Neue Ultra Light', 'Helvetica Neue', 'Helvetica';
+$mono-font: 'Monaco';
 
 @mixin hover-link {
   text-decoration: none;

@@ -39,7 +39,7 @@ a {
 
 body {
     font-size: $normal-size;
-    font-family: 'Helvetica';
+    font-family: $font;
 }
 
 .title {
@@ -147,6 +147,8 @@ pre {
     border-left: 4px solid #eeeeee;
     padding-left: 0.5em;
     margin-left: 0px;
+    color: $grey;
+    font-family: $mono-font;
 }
 
 ul,ol {
@@ -163,4 +165,9 @@ ul {
 
 img {
     max-width: 100%;
+}
+
+code {
+    color: $grey;
+    font-family: $mono-font;
 }
