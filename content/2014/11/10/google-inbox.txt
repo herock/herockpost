@@ -9,7 +9,7 @@ date: 10.11.2014, 15:31
 
 今天无意中注意到 Gmail 的 Spam 文件夹里有几百封垃圾邮件，就想顺手把它清空，但被什么事耽误了一下，没有立刻操作。后来打开了 Inbox，又想起这件事，于是点开 Spam 文件夹，想要清空它们，但吃惊的发现，竟然没有类似「清空 Spam」这样的按钮，连「选中全部邮件」这样的功能都没有，就是这么白茫茫一片真干净。
 
-<img src="http://herockpost.b0.upaiyun.com/img/google_inbox_1.png" width="590px" height="368px">
+<img src="http://herockpost.b0.upaiyun.com/img/google_inbox_1.png" width="590px">
 
 当时第一反应是：「 Inbox 太烂了！怎么连这么明显的功能都能忘了」，毕竟用 Gmail 时，清空 Spam 是我常做的一件事。
 
@@ -20,7 +20,7 @@ date: 10.11.2014, 15:31
 
 只好无奈的回到 Gmail 里，轻松一键清空了所有垃圾邮件，终于舒服了。
 
-<img src="http://herockpost.b0.upaiyun.com/img/google_inbox_2.png" width="590px" height="368px">
+<img src="http://herockpost.b0.upaiyun.com/img/google_inbox_2.png" width="590px">
 
 但几秒钟后，我忽然意识到，也许不是 Inbox 遗漏了这个功能，而是他们做出了更好的设计。
 
