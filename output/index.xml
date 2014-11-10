@@ -5,9 +5,39 @@
         <link>http://herockpost.com/</link>
         <description></description>
         <language>en</language>
-        <pubDate>Sun, 03 Nov 2013 03:23:00 GMT</pubDate>
+        <pubDate>Mon, 10 Nov 2014 07:31:00 GMT</pubDate>
         <docs>http://herockpost.com/index.xml</docs>
         <generator>acrylamid 0.7.7</generator>
+        
+            <item>
+                <title>Google Inbox 不能清空 Spam 是个好设计</title>
+                <link>http://herockpost.com/2014/11/10/google-inbox-spam/</link>
+                <description>&lt;p&gt;最近开始用某家 APN 服务，无缝穿墙感受太棒了，用那些在国内被「消失」的网络产品时，再不必先打开 VPN，习惯之后，甚至会慢慢忘记「墙」的存在，不知道这是好事还是坏事。&lt;/p&gt;
+        &lt;p&gt;这种方便让我打开 Inbox 的次数明显增多，用得多了，就容易发现问题。&lt;/p&gt;
+        &lt;p&gt;今天无意中注意到 Gmail 的 Spam 文件夹里有几百封垃圾邮件，就想顺手把它清空，但被什么事耽误了一下，没有立刻操作。后来打开了 Inbox，又想起这件事，于是点开 Spam 文件夹，想要清空它们，但吃惊的发现，竟然没有类似「清空 Spam」这样的按钮，连「选中全部邮件」这样的功能都没有，就是这么白茫茫一片真干净。&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;http://herockpost.b0.upaiyun.com/img/google_inbox_1.png&#34; width=&#34;590px&#34; height=&#34;368px&#34;&gt;&lt;/p&gt;
+        &lt;p&gt;当时第一反应是：「 Inbox 太烂了！怎么连这么明显的功能都能忘了」，毕竟用 Gmail 时，清空 Spam 是我常做的一件事。&lt;/p&gt;
+        &lt;p&gt;随后我想，大概设计者为了追求界面的简洁，把这个功能藏到某个比较深的地方去了，但找了一圈仍然无果，于是发了一条 &lt;a href=&#34;https://twitter.com/herock/status/531704737964371969&#34;&gt;Tweet&lt;/a&gt; 问大家：
+        &lt;blockquote&gt;谁知道，在 Google 的 Inbox 里，怎么快速清空所有 Spam？&lt;/blockquote&gt;&lt;/p&gt;
+        &lt;p&gt;得到的回应是不行。&lt;/p&gt;
+        &lt;p&gt;只好无奈的回到 Gmail 里，轻松一键清空了所有垃圾邮件，终于舒服了。&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;http://herockpost.b0.upaiyun.com/img/google_inbox_2.png&#34; width=&#34;590px&#34; height=&#34;368px&#34;&gt;&lt;/p&gt;
+        &lt;p&gt;但几秒钟后，我忽然意识到，也许不是 Inbox 遗漏了这个功能，而是他们做出了更好的设计。&lt;/p&gt;
+        &lt;p&gt;思考两个问题：&lt;/p&gt;
+        &lt;ol&gt;
+        &lt;li&gt;&lt;strong&gt;Spam 文件夹存在的价值是什么？没有行不行？&lt;/strong&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;用户（我）为什么需要清空 Spam，不清空行不行？&lt;/strong&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;第一个问题是「清空 Spam」这个功能存在的前提，如果连 Spam 文件夹都没了，自然也不需要「清空」它。&lt;/p&gt;
+        &lt;p&gt;那为什么要有 Spam 这个文件夹呢，显然不是为了方便你阅读垃圾邮件，而是因为系统识别垃圾邮件的准确度还没有达到100%，你一定有过收不到某些重要邮件，而不得不到 Spam 文件里去找的经历吧，只要系统误判的问题继续存在，Spam 文件夹就不能消失。&lt;/p&gt;
+        &lt;p&gt;至于第二个问题，对比上面两张截图，就会发现除了设计风格外，实质性区别只有一个：Gmail 里 Spam 文件夹后标出了其中包含的邮件数，而 Inbox 中没有。&lt;/p&gt;
+        &lt;p&gt;正是这细微的差别，会让 Gmail 的用户注意到我已经有几百封垃圾邮件了 ，就像很多人会随时清空电脑上的「回收站」一样，这个数字也会促使大量「勤快」的用户常常主动把它清空。&lt;/p&gt;
+        &lt;p&gt;但这个操作并没有实际意义（因为 Gmail 会自动清空30天以前的垃圾邮件），甚至可能有害，因为既浪费了用户的时间，又让系统设定的30天缓冲期变得不可靠 - 如果你曾在清空回收站后大喊我靠，就应该明白我的意思。&lt;/p&gt;
+        &lt;p&gt;而在 Inbox 里，除了要找回疑似被误判的邮件，用户不再需要关心这个文件夹了，这样多好。&lt;/p&gt;
+        &lt;p&gt;我用 Inbox 几周了，都没有发现它不能清空垃圾邮件，如果不是偶然打开 Gmail，估计今天也不会发现。&lt;strong&gt;让用户用的很舒畅，但并没有意识到自己的存在&lt;/strong&gt; - 这也是一个好设计的标准。&lt;/p&gt;</description>
+                <pubDate>Mon, 10 Nov 2014 07:31:00 GMT</pubDate>
+                <guid isPermaLink="false">tag:herockpost.com,2014-11-10:/2014/11/10/google-inbox-spam</guid>
+            </item>
         
             <item>
                 <title>安装 Compass</title>
