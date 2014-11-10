@@ -5,7 +5,7 @@ from fabric.api import *
 
 env.roledefs = {
     # 'test': ['herock@192.168.1.108'],
-    'product': ['root@192.155.83.165:2213']
+    'product': ['root@192.155.83.165:2215']
 }
 
 # APPS = ('bidding', 'bidding')
