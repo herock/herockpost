@@ -34,13 +34,40 @@
                 
             </div>
             <div class="latest_entry">
-                <p>每天工作时，重度依赖 <a href="http://www.alfredapp.com/">Alfred</a> 的剪贴板记录功能（&shy;Clip&shy;board His&shy;to&shy;ry），前段时间忽然失效了，剪贴板记录窗口一片空白，什么都没有。</p>
+                <p>每天工作时，重度依赖 <a href="http://www.alfredapp.com/">Alfred</a> 的剪贴板记录功能（&shy;Clip&shy;board His&shy;to&shy;ry），前段时间忽然失效，剪贴板记录窗口一片空白，什么都没有。</p>
 <p>解决方案如下：</p>
 <ol>
 <li>退出 Alfred</li>
 <li>剪贴板历史数据在：<code>~/Library/Application Support/Alfred 2/</code>，在终端里进入后删除数据文件：<code>rm clipboard.alfdb</code></li>
 <li>启动 Al&shy;fred，应该就正常了</li>
 </ol>
+            </div>
+            <div class="comments">
+                
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    var disqus_shortname = 'herockpost'; // required: replace example with your forum shortname
+
+                    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+                    var disqus_identifier = "http://herockpost.com/2015/05/22/alfred/";
+                    var disqus_url = "http://herockpost.com/2015/05/22/alfred/";
+
+                    if (window.location.hostname != "localhost") {
+                        /* * * DON'T EDIT BELOW THIS LINE * * */
+                        (function() {
+                            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                        })();
+                    }
+                </script>
+                <noscript>
+                    <p>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></p>
+                </noscript>
+                <a href="http://disqus.com" class="dsq-brlink">
+                    blog comments powered by <span class="logo-disqus">Disqus</span>
+                </a>
+                
             </div>
         </div>
     </div>

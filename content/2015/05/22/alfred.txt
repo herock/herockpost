@@ -3,7 +3,7 @@ title: Alfred 剪贴板历史功能失效
 date: 22.05.2015, 11:04
 ---
 
-每天工作时，重度依赖 [Alfred](http://www.alfredapp.com/) 的剪贴板记录功能（Clipboard History），前段时间忽然失效了，剪贴板记录窗口一片空白，什么都没有。
+每天工作时，重度依赖 [Alfred](http://www.alfredapp.com/) 的剪贴板记录功能（Clipboard History），前段时间忽然失效，剪贴板记录窗口一片空白，什么都没有。
 
 解决方案如下：
 
