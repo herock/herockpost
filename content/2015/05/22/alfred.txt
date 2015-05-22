@@ -1,0 +1,13 @@
+---
+title: Alfred 剪贴板历史功能失效
+date: 22.05.2015, 11:04
+---
+
+每天工作时，重度依赖 [Alfred](http://www.alfredapp.com/) 的剪贴板记录功能（Clipboard History），前段时间忽然失效了，剪贴板记录窗口一片空白，什么都没有。
+
+解决方案如下：
+
+1. 退出 Alfred
+1. 剪贴板历史数据在：`~/Library/Application Support/Alfred 2/`，在终端里进入后删除数据文件：`rm clipboard.alfdb`
+1. 启动 Alfred，应该就正常了
+
